@@ -1,0 +1,9 @@
+27-10-2021 14:33:31.761 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+27-10-2021 14:33:31.768 [Gauge] [INFO] Initializing specs cache with 1 specs
+27-10-2021 14:33:31.768 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\Appium\Ozdilekteyim\specs\example.spec
+27-10-2021 14:33:31.768 [Gauge] [INFO] Initializing steps cache with 1 steps
+27-10-2021 14:33:31.768 [Gauge] [INFO] Gauge daemon initialized and listening on port: 56288
+27-10-2021 14:33:31.769 [Gauge] [DEBUG] Watching directory: C:\Users\testinium\Desktop\Appium\Ozdilekteyim\specs
+27-10-2021 14:33:31.769 [Gauge] [DEBUG] Found 1 files
+27-10-2021 14:33:32.111 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest  messageId:5  libPathRequest:{language:"java"}
+27-10-2021 14:33:32.133 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse  messageId:5  libPathResponse:{path:"C:\\Users\\testinium\\AppData\\Roaming\\gauge\\plugins\\java\\0.7.15\\libs"}
