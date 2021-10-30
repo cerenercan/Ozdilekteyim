@@ -1,0 +1,58 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1329milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1329"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57582"}
+{"logLevel":"info","message":"Listening on port:57582"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.Login.checkLogin' and 'org.example.pages.Login.checkLogin'"}
+{"logLevel":"debug","message":"Found Login page doğrulama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.Shop.checkShopping' and 'org.example.pages.Shop.checkShopping'"}
+{"logLevel":"debug","message":"Found Alisveris Sayfasi Dogrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByid' and 'org.example.StepImplementation.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByxpath' and 'org.example.StepImplementation.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.ProductDetail.checkProductDetail' and 'org.example.pages.ProductDetail.checkProductDetail'"}
+{"logLevel":"debug","message":"Found Product detail sayfası doğrulama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.ScrollRandomPos' and 'org.example.StepImplementation.ScrollRandomPos'"}
+{"logLevel":"debug","message":"Found sayfa boyunca scroll et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitSeconds' and 'org.example.StepImplementation.waitSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.SendkeyElementByid' and 'org.example.StepImplementation.SendkeyElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.findAllProducts' and 'org.example.StepImplementation.findAllProducts'"}
+{"logLevel":"debug","message":"Found {} xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.Category.checkCategoryPage' and 'org.example.pages.Category.checkCategoryPage'"}
+{"logLevel":"debug","message":"Found Kategori Sayfası Kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.addToBasket' and 'org.example.StepImplementation.addToBasket'"}
+{"logLevel":"debug","message":"Found Sepete ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.pages.Home.open' and 'org.example.pages.Home.open'"}
+{"logLevel":"debug","message":"Found Acilis Sayfasi Kontrol in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSepete ekle : public void addToBasket()"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickElementByxpath(String Key)"}
+{"logLevel":"debug","message":"\tKategori Sayfası Kontrol : public void checkCategoryPage()"}
+{"logLevel":"debug","message":"\tAlisveris Sayfasi Dogrula : public void checkShopping()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void SendkeyElementByid(String Key, String keyword)"}
+{"logLevel":"debug","message":"\tAcilis Sayfasi Kontrol : public void open()"}
+{"logLevel":"debug","message":"\tProduct detail sayfası doğrulama : public void checkProductDetail()"}
+{"logLevel":"debug","message":"\tsayfa boyunca scroll et : public void ScrollRandomPos()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla : public void findAllProducts(String Key)"}
+{"logLevel":"debug","message":"\tLogin page doğrulama : public void checkLogin()"}
+{"logLevel":"debug","message":"\t{} İd'li elemente tıkla : public void clickElementByid(String Key)"}
+Android  testi basliyor
+Eki 30, 2021 3:02:33 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class org.example.StepImplementation.waitSeconds"}
+{"logLevel":"debug","message":"Executing 'Acilis Sayfasi Kontrol' using 'class org.example.pages.Home.open"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
